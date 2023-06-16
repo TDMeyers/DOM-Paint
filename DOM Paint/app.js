@@ -53,7 +53,7 @@ b. In the callback function it should toggle the boolean value of the variable '
 */
 
 canvas.addEventListener('click', (event) => {
-    canvasState !== canvasState
+    canvasState = !canvasState
 })
 
 /*
